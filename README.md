@@ -34,3 +34,17 @@ La aplicación está optimizada para evitar peticiones HTTP innecesarias mediant
 - **Custom Hook (`useGifs`)** → Maneja la lógica de negocio
 - **Servicios** → Comunicación con la API de Giphy
 - **Interfaces** → Tipado de datos
+
+
+## Despliegue
+
+La aplicación se encuentra desplegada en Netlify y es accesible públicamente.
+
+ Demo en producción:
+ https://react-gif-search-alonso.netlify.app
+
+ Proceso de despliegue
+Repositorio conectado a GitHub
+Build automático en cada push a la rama main
+Comando de build:  npm run build
+Directorio de publicación: dist
